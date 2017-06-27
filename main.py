@@ -32,4 +32,3 @@ else:
     add_status()
 
 def add_friend():
-    new_name=raw_input("add name:")
