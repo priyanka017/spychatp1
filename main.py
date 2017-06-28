@@ -30,5 +30,5 @@ else:
     while spyrating <0 or spyrating>5:
         spyrating=raw_input("incorrect rating.Please enter again:")
     add_status()
-
+#adding friends
 def add_friend():
