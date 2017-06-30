@@ -1,0 +1,5 @@
+def start_chat():
+    friend1 =Spy_user("priyanka", "ms", 20, 3.5)
+    friend2 =Spy_user("priya", "ms", 16, 5)
+    friend3 =Spy_user("prince", "ms", 12, 4.5)
+
