@@ -102,7 +102,6 @@ def send_message():
     new_chat = chat_message(text , True)
     friends[friend_choice].chats.append(new_chat)
     print ("Your secret message is ready")
-send_message()
 
 #reading message
 def read_message():
@@ -113,5 +112,5 @@ def read_message():
     new_chat = chat_message( get,False)
     friends[sender].chats.append(new_chat)
     print("your message has been sent")
-read_message()
+
 
