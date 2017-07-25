@@ -3,8 +3,8 @@ from functions import *
 from datetime import datetime
 from spy_details import *
 #start chat
-print("WELCOME TO SPYCHAT")
-user = raw_input("Continue as default user or new user.\n Press 'Y' to create new user or any other key to login as default user.")
+print("WELCOME TO SPYCHAT................")
+user = raw_input("Continue as default user or new user. Press 'Y' to create new user or any other key to login as default user.")
 existing=raw_input(user)
 if user.upper()== 'Y':
     spy_user = Spy("Bond","mr", 20,4.5)
