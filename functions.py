@@ -67,18 +67,19 @@ def add_status():
 
 #adding friend
 def add_friend():
-    new_friend = Spy('','',0,0.0)
+    new_friend = Spy('', '', 0, 0.0)
     new_friend.name = raw_input("enter friends name")
     new_friend.salutation = raw_input("enter mr or ms")
-    new_friend.age =int(raw_input("enter age"))
+    new_friend.age = int(raw_input("enter age"))
     new_friend.rating = float(raw_input("enter rating"))
-    if len(new_friend.name) > 0 and new_friend.age > 12 :
+    if len(new_friend.name) > 0 and new_friend.age > 12:
         friends.append(new_friend)
     else:
         print 'Invalid entry. We cant add spy with the details you provided'
     return len(friends)
 
-#selecting friend
+
+        #selecting friend
 def select_friend():
     item = 0
     for friend in friends:
@@ -90,7 +91,7 @@ def select_friend():
     frnd = int(friend_choice) - 1
     return friend_choice
 
-#sending message
+#sending messages
 def send_message():
     friend_choice = select_friend()
     original_image='nature.jpg'
